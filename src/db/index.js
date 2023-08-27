@@ -1,2 +1,2 @@
-export { quotes } from "./backgrounds";
-export { backgrounds } from "./quotes";
+export { backgrounds } from "./backgrounds";
+export { quotes } from "./quotes";
