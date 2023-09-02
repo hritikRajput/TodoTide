@@ -1,5 +1,6 @@
 import './App.css';
 import { backgrounds } from "./db/index";
+import Home from "./pages/Home"
 
 function App() {
   const randomIndex = Math.floor(Math.random() * backgrounds.length);
@@ -7,6 +8,7 @@ function App() {
   console.log(bg)
   return (
     <div className='app' style={{ backgroundImage: `url("${bg.image}")` }}>
+      <Home />
     </div>
   );
 }

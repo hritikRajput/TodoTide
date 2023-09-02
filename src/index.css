@@ -1,3 +1,12 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+  :root {
+    --text-color-primary: #f8fafc;
+    --todo-background: #0f172a;
+    --scrollbar-color: #a1a1aa;
+  }
+
 *, *::after, *::before {
     box-sizing: border-box;
   }
@@ -11,8 +20,16 @@
   body {
     line-height: 1.5;
     height: 100vh;
+    font-family: 'Raleway', sans-serif;;
+
   }
   img{
     display: block;
     max-width: 100%;
   }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  
